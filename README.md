@@ -17,7 +17,7 @@ This is a simple implementation of String Calculator using Ruby. The project dem
 
 ## Project Structure
 
-string_calculator/
+    string_calculator/
 
     ├── string_calculator.rb # Main implementation
 
