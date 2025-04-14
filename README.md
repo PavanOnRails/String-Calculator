@@ -18,38 +18,46 @@ This is a simple implementation of String Calculator using Ruby. The project dem
 ## Project Structure
 
 string_calculator/
-├── string_calculator.rb # Main implementation
-├── spec/
-  │ └── string_calculator_spec.rb # RSpec tests
-  | └── spec_helper.rb # Test setup
-├── Gemfile # Dependencies
-├── README.md # You're here!
-├── .rspec # RSpec config
+
+    ├── string_calculator.rb # Main implementation
+
+    ├── spec/
+
+      └── string_calculator_spec.rb # RSpec tests
+   
+      └── spec_helper.rb # Test setup
+  
+    ├── Gemfile # Dependencies
+
+    ├── README.md # You're here!
+
+    ├── .rspec # RSpec config
 
 ## Getting Started
 
 1. Clone the repo:
 
-git clone <git@github.com>:your_username/string_calculator.git
-cd string_calculator
+  ```bash git clone <git@github.com>:your_username/string_calculator.git```
+
+  ```bash cd string_calculator```
 
 2. Install dependencies:
 
-bundle install
+  ```ruby bundle install```
 
 3. Run tests:
 
-bundle exec rspec
+  ```ruby bundle exec rspec```
 
 ## Code Linting (Rubocop)
 
 To check style and formatting:
 
-bundle exec rubocop
+  ```ruby bundle exec rubocop```
 
 To auto-correct issues:
 
-bundle exec rubocop -A
+  ```ruby bundle exec rubocop -A```
 
 ## Code Coverage (SimpleCov)
 
@@ -61,4 +69,5 @@ Open it in your browser to view detailed coverage metrics.
 ## Documentation (RDoc)
 
 To generate HTML documentation: ```ruby rdoc string_calculator.rb```
+
 Then open the file: ```bash open doc/index.html```
