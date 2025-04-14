@@ -1,5 +1,6 @@
 
 require 'spec_helper'
+require_relative '../string_calculator'
 
 RSpec.describe StringCalculator do
   let(:calc) { StringCalculator.new }
@@ -18,5 +19,9 @@ RSpec.describe StringCalculator do
 
   it 'returns the sum of multiple numbers' do
     expect(calc.add("1,2,3,4")).to eq(10)
+  end
+
+  it 'handles new lines between numbers' do
+    expect(calc.add("1\n2,3")).to eq(6)
   end
 end
