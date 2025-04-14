@@ -37,27 +37,27 @@ This is a simple implementation of String Calculator using Ruby. The project dem
 
 1. Clone the repo:
 
-  ```bash git clone <git@github.com>:your_username/string_calculator.git```
+      ```bash git clone <git@github.com>:your_username/string_calculator.git```
 
-  ```bash cd string_calculator```
+      ```bash cd string_calculator```
 
 2. Install dependencies:
 
-  ```ruby bundle install```
+      ```ruby bundle install```
 
 3. Run tests:
 
-  ```ruby bundle exec rspec```
+      ```ruby bundle exec rspec```
 
 ## Code Linting (Rubocop)
 
 To check style and formatting:
 
-  ```ruby bundle exec rubocop```
+   ```ruby bundle exec rubocop```
 
 To auto-correct issues:
 
-  ```ruby bundle exec rubocop -A```
+   ```ruby bundle exec rubocop -A```
 
 ## Code Coverage (SimpleCov)
 
