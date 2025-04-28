@@ -37,9 +37,9 @@ This is a simple implementation of String Calculator using Ruby. The project dem
 
 1. Clone the repo:
 
-      ```bash git clone <git@github.com>:your_username/string_calculator.git```
+      ```git clone <git@github.com>:your_username/string_calculator.git```
 
-      ```bash cd string_calculator```
+      ```cd string_calculator```
 
 2. Install dependencies:
 
